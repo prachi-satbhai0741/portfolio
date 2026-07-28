@@ -1,4 +1,4 @@
-# Portfolio Web Assignment
+# Portfolio
 
 A responsive personal portfolio website developed using HTML, CSS, and JavaScript as part of a college Web Development assignment.
 
@@ -41,3 +41,7 @@ portfolio-web-assignment/
 ## Author
 
 **Prachi Satbhai**
+
+## College Assignment
+
+This project has been developed as part of the **Web Development** coursework. The portfolio integrates all five practical assignments into a single responsive website to demonstrate the understanding and application of HTML5, CSS3, and modern web design principles. All source code and page layouts have been implemented for academic learning and evaluation purposes.
