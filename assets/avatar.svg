@@ -1,0 +1,11 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Initials PS on a marigold circle">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3C34D"/>
+      <stop offset="100%" stop-color="#D98A0E"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="118" fill="url(#avatarGrad)" stroke="#3D2B06" stroke-width="3"/>
+  <circle cx="120" cy="120" r="98" fill="none" stroke="#FDF6E9" stroke-width="2" stroke-dasharray="2 10" opacity="0.6"/>
+  <text x="120" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="86" font-weight="700" fill="#2A1E05" text-anchor="middle">PS</text>
+</svg>

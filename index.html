@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prachi Satbhai</title>
+  <meta name="description"
+    content="Prachi Satbhai's portfolio: a DevOps and Cloud engineer specializing in CI/CD automation, containerization, and infrastructure as code, with AI/ML as a side interest.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    @media print {
+
+      .site-header,
+      .to-top,
+      .hero-ctas,
+      .theme-toggle,
+      .contact-actions {
+        display: none !important;
+      }
+
+      body {
+        background: #fff;
+        color: #000;
+      }
+
+      section {
+        padding: 24px 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="Prachi Satbhai Home">
+        <img class="brand-mark" src="assets/avatar.svg" width="36" height="36" alt="">
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle" role="group" aria-label="Theme">
+        <button type="button" data-theme-btn="light" aria-pressed="true">Light</button>
+        <button type="button" data-theme-btn="dark" aria-pressed="false">Dark</button>
+      </div>
+      <button class="nav-burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="wrap">
+        <p class="status-pill">
+          <span class="status-dot" style="background:#3F8F53;"></span>
+          DevOps &amp; Cloud 
+        </p>
+
+        <h1>Infrastructure that just <em>keeps running.</em></h1>
+        <p class="lede">
+          I'm Prachi, a DevOps and cloud engineer who builds the pipelines and infrastructure teams
+          rely on without thinking about it. My day to day spans AWS provisioning, environments defined
+          with Terraform, and GitHub Actions workflows built to fail loudly and recover fast. Lately
+          I've been exploring where AI and ML can plug into that same automation mindset.
+        </p>
+
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#projects">Explore my work →</a>
+          <a class="btn btn-ghost" href="#blog">Check out the blog</a>
+        </div>
+
+        <ul class="badge-row">
+          <li><span class="sw"></span> AWS</li>
+          <li><span class="sw"></span> Terraform</li>
+          <li><span class="sw"></span> Docker</li>
+          <li><span class="sw"></span> GitHub Actions</li>
+          <li><span class="sw"></span> Go</li>
+          <li><span class="sw"></span> Kubernetes</li>
+        </ul>
+
+        <ul class="stat-strip">
+          <li>
+            <div>
+              <div class="k">STATUS</div>
+              <div class="v">Open for opportunities</div>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="k">HACKATHON</div>
+              <div class="v">1st Runner Up</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>I like automation that stays out of the way</h2>
+          <div class="about-copy" style="margin-top:16px;">
+            <p>
+              Third year Computer Engineering student at KBTCOE, Nashik, currently working as a
+              <strong>DevOps Engineering Intern at deboistech IT Solutions</strong>. That role has me
+              rotating through Linux administration, Git workflows, GitHub Actions, Jenkins pipelines,
+              Docker, Kubernetes, and AWS inside a structured, hands on training track.
+            </p>
+            <p>
+              Outside the internship, I'm a core team member of <strong>ML KBTCOE</strong> and
+              <strong>MLSC KBTCOE</strong>, where we run Cloud and DevOps sessions for other students.
+              That's also where my curiosity about AI/ML took root, particularly how ML models fit into
+              the deployment pipelines and infrastructure I already build. I write up what I learn on
+              Medium; explaining it well is usually how I find out whether I actually understood it.
+            </p>
+          </div>
+
+          <ol class="how-i-work">
+            <li><span class="n">01</span><span>Figure out why something broke before automating around it.</span></li>
+            <li><span class="n">02</span><span>Fix the repetitive parts first. Everything else moves faster after.</span>
+            </li>
+            <li><span class="n">03</span><span>Document like the person reading it is half asleep at 3 a.m.</span>
+            </li>
+          </ol>
+
+          <aside class="facts">
+            <h3>Quick facts</h3>
+            <ul>
+              <li><span>Role</span><b>DevOps Intern · deboistech</b></li>
+              <li><span>Year</span><b>3rd year, B.Tech CE</b></li>
+              <li><span>College</span><b>KBTCOE (2024 to 2028)</b></li>
+              <li><span>Award</span><b>1st Runner Up, Innovate Maharashtra GenAI Hackathon 2025</b></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Skills</p>
+          <h2>What I build with</h2>
+          <p class="lede">A few of the tools and technologies I use to build reliable, automated, and
+            maintainable infrastructure and applications.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Cloud &amp; IaC</h3>
+            <p class="desc">Provisioning and managing AWS infrastructure as code, from compute and storage to monitoring and state-managed deployments.</p>
+            <ul>
+              <li>AWS EC2</li>
+              <li>S3</li>
+              <li>IAM</li>
+              <li>Lambda</li>
+              <li>CloudWatch</li>
+              <li>DynamoDB</li>
+              <li>Terraform</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>CI/CD &amp; Containers</h3>
+            <p class="desc">Automating build, test, and deployment pipelines, and packaging applications into containers for consistent, reproducible environments.</p>
+            <ul>
+              <li>GitHub Actions</li>
+              <li>Docker</li>
+              <li>Docker Compose</li>
+              <li>Multistage builds</li>
+              <li>Kubernetes</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <p class="desc">Comfortable across backend and scripting languages, picking whichever fits the tool, automation, or app I'm building.</p>
+            <ul>
+              <li>Go</li>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Dart</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>App &amp; Data</h3>
+            <p class="desc">Building full apps end to end, from Flutter and React front ends to the databases, caching, and auth that power them.</p>
+            <ul>
+              <li>Flutter</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+              <li>MongoDB</li>
+              <li>SQLite</li>
+              <li>Redis</li>
+              <li>JWT / TOTP Auth</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Projects</p>
+          <h2>A few things I've shipped</h2>
+          <p class="lede">A few different angles on how I work: an AI assisted dev tool, a
+            security focused CLI system, and a Docker focused REST API in Go.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <img class="shot" src="https://opengraph.githubassets.com/23c8f935313d7dc5f05f8934937048b44c1ac25017dd4142f42cdeef5b8101c2/prachi-satbhai0741/ReadmeForge" alt="ReadmeForge repository preview">
+            <div class="card-body">
+              <span class="idx">01 · DEV TOOL</span>
+              <h3>ReadmeForge</h3>
+              <p class="tagline">AI powered README generator and evaluator</p>
+              <p class="desc">Feed it a GitHub repo and it drafts a structured README from scratch, or scores your
+                existing one on completeness, clarity, and overall documentation quality.</p>
+              <ul class="tech">
+                <li>TypeScript</li>
+                <li>Next.js</li>
+                <li>Gemini API</li>
+              </ul>
+              <a class="repo-link" href="https://github.com/prachi-satbhai0741/ReadmeForge" target="_blank"
+                rel="noopener">
+                <img src="assets/github.svg" alt="" width="15" height="15"> View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="shot" src="https://opengraph.githubassets.com/a06ba19dd1fea385a3ab713e3c6694fc593377060ac80adb4b784d50e20dcc77/prachi-satbhai0741/cli-login-system" alt="cli-login-system repository preview">
+            <div class="card-body">
+              <span class="idx">02 · GO + DOCKER</span>
+              <h3>CLI Login System</h3>
+              <p class="tagline">Containerized authentication in Go</p>
+              <p class="desc">A command line auth system with bcrypt password hashing, optional TOTP 2FA, session
+                management, and account lockout. Runs entirely in Docker with a persistent SQLite database.</p>
+              <ul class="tech">
+                <li>Go</li>
+                <li>Docker</li>
+                <li>SQLite</li>
+              </ul>
+              <a class="repo-link" href="https://github.com/prachi-satbhai0741/cli-login-system" target="_blank" rel="noopener">
+                <img src="assets/github.svg" alt="" width="15" height="15"> View on GitHub
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img class="shot" src="https://opengraph.githubassets.com/560dc7d3bfd72b487bc6f179f92cf73e13bc87954f577c65f0c9e64fb67708e0/prachi-satbhai0741/Taskboard" alt="Taskboard repository preview">
+            <div class="card-body">
+              <span class="idx">03 · BACKEND</span>
+              <h3>Taskboard</h3>
+              <p class="tagline">Developer task board REST API, built to learn Docker</p>
+              <p class="desc">A Go REST API for managing developer tasks, deliberately structured so every
+                commit introduces a new Docker concept: multistage builds, custom networks, volumes,
+                Compose, health checks, and secrets.</p>
+              <ul class="tech">
+                <li>Go</li>
+                <li>PostgreSQL</li>
+                <li>Redis</li>
+                <li>Docker Compose</li>
+              </ul>
+              <a class="repo-link" href="https://github.com/prachi-satbhai0741/Taskboard" target="_blank" rel="noopener">
+                <img src="assets/github.svg" alt="" width="15" height="15"> View on GitHub
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="blog-cta">
+          <a class="btn btn-ghost" href="https://github.com/prachi-satbhai0741" target="_blank" rel="noopener">
+            <img src="assets/github.svg" alt="" width="15" height="15"
+              style="display:inline-block; vertical-align:-2px; margin-right:6px;">Browse all projects on GitHub →
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section id="blog">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Writing</p>
+          <h2>Lessons the Pipeline Taught Me</h2>
+          <p class="lede">Short, opinionated posts on DevOps and cloud engineering, usually written right after
+            whatever bug taught me the lesson.</p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <img class="cover" src="https://miro.medium.com/v2/resize:fit:1200/1*lTXX6Ghu6693zaTNPOjODg.png" alt="Cover image for Your Pipeline Is Green. Your App Is Already Dead">
+            <div class="card-body">
+              <span class="date">Jun 29</span>
+              <h3>Your Pipeline Is Green. Your App Is Already Dead</h3>
+              <p>A passing CI/CD run only proves your pipeline did what you told it to. It says nothing about
+                whether production is actually holding up.</p>
+              <a class="read" href="https://medium.com/@prachisatbhai/your-pipeline-is-green-your-app-is-already-dead-d3c7014bd3ff" target="_blank" rel="noopener">Read on Medium →</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img class="cover" src="https://miro.medium.com/v2/resize:fill:395:208/g:fp:0.5:0.21/1*8QUs2Ri5x0ztmKwmujKJ8Q.png" alt="Cover image for Why Traditional Servers Are Dying and Cloud Is Taking Over">
+            <div class="card-body">
+              <span class="date">Jun 16</span>
+              <h3>Why Traditional Servers Are Dying and Cloud Is Taking Over</h3>
+              <p>A look at why shipping software increasingly means reaching for elastic, self healing cloud
+                infrastructure instead of a machine you provision and babysit yourself.</p>
+              <a class="read" href="https://medium.com/@prachisatbhai/why-traditional-servers-are-dying-and-cloud-is-taking-over-0b7d65929251" target="_blank" rel="noopener">Read on Medium →</a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <img class="cover" src="https://cdn.hashnode.com/uploads/logos/69aea63809af683389b5333d/caa29055-812c-485d-baaa-de06bc178ac4.jpg" alt="Cover image for Platform Engineering: The Role Nobody Talks About But Everyone Needs">
+            <div class="card-body">
+              <span class="date">Apr 14</span>
+              <h3>Platform Engineering: The Role Nobody Talks About But Everyone Needs</h3>
+              <p>On why DevOps stops scaling past a certain team size, and how platform engineering and internal
+                developer platforms pick up where it leaves off.</p>
+              <a class="read" href="https://techwithprachi.hashnode.dev/platform-engineering-the-role-nobody-talks-about-but-everyone-needs" target="_blank" rel="noopener">Read on Hashnode →</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="blog-cta">
+          <a class="btn btn-ghost" href="https://medium.com/@prachisatbhai" target="_blank" rel="noopener">See all posts
+            on Medium →</a>
+          <a class="btn btn-ghost" href="https://hashnode.com/@prachisatbhai" target="_blank" rel="noopener">See all posts
+            on Hashnode →</a>
+        </p>
+
+         <div class="section-head section-head--linkedin" style="margin-top:56px;">
+          <p class="eyebrow">LinkedIn</p>
+          <h2>Recent highlights</h2>
+          <p class="lede">Achievements and community engagement across DevOps, cloud engineering, and AI/ML learning initiatives — from hackathon awards to technical sessions and developer community leadership.</p>
+        </div>
+        <div class="linkedin-strip">
+          <figure class="linkedin-card">
+            <img src="assets/linkedin-highlight-1.png" alt="LinkedIn post highlight one">
+            <figcaption>
+              <span class="highlight-title">Innovate Maharashtra GenAI Hackathon</span>
+              <p class="highlight-desc">1st Runner Up award for building a production GenAI solution at the state hackathon.</p>
+            </figcaption>
+          </figure>
+          <figure class="linkedin-card">
+            <img src="assets/linkedin-highlight-2.png" alt="LinkedIn post highlight two">
+            <figcaption>
+              <span class="highlight-title">FutureForward 2026 · MLSC KBTCOE</span>
+              <p class="highlight-desc">Led hands on Cloud and DevOps technical sessions as a core community team member.</p>
+            </figcaption>
+          </figure>
+          <figure class="linkedin-card">
+            <img src="assets/linkedin-highlight-3.png" alt="LinkedIn post highlight three">
+            <figcaption>
+              <span class="highlight-title">ML Nashik · GenAI Feature</span>
+              <p class="highlight-desc">Featured speaker sharing AI deployment insights at the ML Nashik developer community event.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <p class="blog-cta">
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/prachi-satbhai-2b8246322" target="_blank" rel="noopener">See more posts on LinkedIn →</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrap">
+        <div class="contact">
+          <h2>Let's build something dependable</h2>
+          <p>I'm currently looking for DevOps and Cloud roles, with AI/ML as a side interest along the way.
+            Deployment pipelines, cloud architecture, or the 2 a.m. incident that nobody wanted? Happy to talk
+            through any of it.</p>
+
+          <form class="collab-form" id="collabForm">
+            <div class="field-row">
+              <label>
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Your name" required>
+              </label>
+              <label>
+                <span>Interested in</span>
+                <select name="interest">
+                  <option>DevOps &amp; Cloud collaboration</option>
+                  <option>AI/ML project</option>
+                  <option>Internship / full time role</option>
+                  <option>Open source contribution</option>
+                  <option>Something else</option>
+                </select>
+              </label>
+            </div>
+            <label class="field-full">
+              <span>Project idea</span>
+              <textarea name="idea" rows="3" placeholder="What are you building or thinking about?" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <div class="connect-block">
+            <p class="connect-label">Connect with me on</p>
+            <div class="connect-icons">
+              <a href="https://github.com/prachi-satbhai0741" target="_blank" rel="noopener">
+                <span class="icon-box"><img src="assets/github.svg" alt=""></span>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.linkedin.com/in/prachi-satbhai-2b8246322" target="_blank" rel="noopener">
+                <span class="icon-box"><img src="assets/linkedin.svg" alt=""></span>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://hashnode.com/@prachisatbhai" target="_blank" rel="noopener">
+                <span class="icon-box"><img src="assets/hashnode.svg" alt=""></span>
+                <span>Hashnode</span>
+              </a>
+              <a href="https://medium.com/@prachisatbhai" target="_blank" rel="noopener">
+                <span class="icon-box"><img src="assets/medium.svg" alt=""></span>
+                <span>Medium</span>
+              </a>
+              <a href="mailto:prachisatbhai275@gmail.com">
+                <span class="icon-box"><img src="assets/mail.svg" alt=""></span>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
